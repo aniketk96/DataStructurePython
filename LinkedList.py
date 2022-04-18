@@ -46,7 +46,7 @@ class LinkdList:
     def print_list(self):
         this_node=self.root
         while this_node is not None:
-            print(this_node,end='=>')
+            print('('+str(this_node.data)+')',end='=>')
             this_node = this_node.next_node
         print('None')
 
